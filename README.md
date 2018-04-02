@@ -51,18 +51,18 @@
 	        );
 		}
 	注意:configureScene设置切换动画，可取值
-	<ol>
-	<li>Navigator.SceneConfigs.PushFromRight (default)</li>
-	<li>Navigator.SceneConfigs.FloatFromRight</li>
-	<li>Navigator.SceneConfigs.FloatFromLeft</li>
-	<li>Navigator.SceneConfigs.FloatFromBottom</li>
-	<li>Navigator.SceneConfigs.FloatFromBottomAndroid</li>
-	<li>Navigator.SceneConfigs.FadeAndroid</li>
-	<li>Navigator.SceneConfigs.HorizontalSwipeJump</li>
-	<li>Navigator.SceneConfigs.HorizontalSwipeJumpFromRight</li>	
-	<li>Navigator.SceneConfigs.VerticalUpSwipeJump</li>
-	<li>Navigator.SceneConfigs.VerticalDownSwipeJump</li>
-	</ol>
+	
+	*	Navigator.SceneConfigs.PushFromRight (default)
+	*   Navigator.SceneConfigs.FloatFromRight
+	*   Navigator.SceneConfigs.FloatFromLeft
+	*	Navigator.SceneConfigs.FloatFromBottom
+	*	Navigator.SceneConfigs.FloatFromBottomAndroid
+	*	Navigator.SceneConfigs.FadeAndroid
+	*	Navigator.SceneConfigs.HorizontalSwipeJump
+	*	Navigator.SceneConfigs.HorizontalSwipeJumpFromRight
+	*	Navigator.SceneConfigs.VerticalUpSwipeJump
+	*	Navigator.SceneConfigs.VerticalDownSwipeJump
+	
 
 	> 当然在这里顶部的导航栏是我们的重点，navigationBar 头部固定导航栏，然后具体看看参数`NavigationBarRouteMapper`的实现。
 	
