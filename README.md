@@ -1,13 +1,11 @@
 ## React Native --- Navigator 添加导航栏##
 
-### 首先这里介绍的通用的Navigator，并非是IOS ONLY  效果如下###
-
-![jump](https://i.imgur.com/73naftU.gif)
-
------------
-> 注意：从0.44版本开始，Navigator被从react native的核心组件库中剥离到了一个名为react-native-deprecated-custom-components的单独模块中。如果你需要继续使用Navigator，则需要先安装`npm i facebookarchive/react-native-custom-components`，然后从这个模块中import，即`import { Navigator } from 'react-native-deprecated-custom-components'`
+### 首先这里介绍的通用的Navigator，并非是NavigatorIOS ###
 
 ----------
+
+> 注意：从0.44版本开始，Navigator被从react native的核心组件库中剥离到了一个名为react-native-deprecated-custom-components的单独模块中。如果你需要继续使用Navigator，则需要先安装`npm i facebookarchive/react-native-custom-components`，然后从这个模块中import，即`import { Navigator } from 'react-native-deprecated-custom-components'`
+
 
 ### 1、导入 ###
 	npm i facebookarchive/react-native-custom-components
