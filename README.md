@@ -1,4 +1,4 @@
-## React Native --- Navigator 添加导航栏##
+## React Native --- Navigator 添加导航栏 ##
 
 ### 首先这里介绍的通用的Navigator，并非是NavigatorIOS ###
 
